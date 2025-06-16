@@ -6,3 +6,6 @@ google-auth
 google-auth-oauthlib
 requests
 python-dotenv
+folium
+pdfkit
+tempfile
