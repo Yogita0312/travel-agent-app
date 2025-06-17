@@ -29,6 +29,8 @@ client = AzureOpenAI(
 # Page config
 st.set_page_config(page_title="AI Travel Planner", page_icon="✈️", layout="wide")
 
+st.image("logo.png", use_container_width=False, width=200)
+
 st.title("✈️ AI Travel Planner")
 st.markdown("""
 This AI-powered travel planner helps you create personalized travel itineraries using:
